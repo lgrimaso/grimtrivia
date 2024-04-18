@@ -20,7 +20,7 @@ button {
     outline: none;
     cursor: pointer;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: large;
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 5px;
@@ -83,7 +83,7 @@ button.wrong:active {
 }
 
 .button-container {
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
