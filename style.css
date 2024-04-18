@@ -2,7 +2,7 @@
 
 /* Reset default heading styles */
 h1 {
-    font-size: 36px;
+    font-size: xx-large;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
@@ -93,21 +93,21 @@ button.wrong:active {
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto; /* Center the card horizontally */
-    max-width: 800px; /* Limit the maximum width of the card */
+    max-width: 75%; /* Limit the maximum width of the card */
     text-align: center;
 }
 
 /* Style for the question text */
 .question-card h2 {
     color: #fff; /* White text color */
-    font-size: 24px;
+    font-size: larger;
     margin-bottom: 20px;
 }
 
 /* style.css */
 
 .container {
-    max-width: 800px;
+    max-width: 75%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -125,7 +125,7 @@ button.wrong:active {
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
-    width: 300px;
+    width: 50%;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
