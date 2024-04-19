@@ -13,6 +13,37 @@ h1 {
     text-align: center;
 }
 
+a.button {
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+/* Hover effect */
+a.button:hover {
+    background-color: #2980b9;
+}
+
+/* Focus effect */
+a.button:focus {
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
+}
+
+/* Active effect */
+a.button:active {
+    transform: translateY(1px);
+}
+
 /* Reset default button styles */
 button {
     margin: 5px;
